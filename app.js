@@ -7,8 +7,8 @@ const mongoose = require("mongoose")
 const mongo_username = process.env['mongo_username'] // update your username in secrets
 const mongo_password = process.env['mongo_password'] // update your password in secrets
 const mongo_collection = process.env['mongo_collection'] // update your conllection name in secrets
-//const CONNECTION_URI = `mongodb+srv://${mongo_username}:${mongo_password}@cluster0.diric2s.mongodb.net/${mongo_collection}?retryWrites=true&w=majority`
-const CONNECTION_URI = `mongodb+srv://koobuka:Abc123@cluster0.diric2s.mongodb.net/movie?retryWrites=true&w=majority`
+const CONNECTION_URI = `mongodb+srv://${mongo_username}:${mongo_password}@cluster0.diric2s.mongodb.net/${mongo_collection}?retryWrites=true&w=majority`
+
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
