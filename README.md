@@ -1,16 +1,12 @@
-# VueJS-with-Vite
+# MongoDB
 
-This is a project with Vue 3 in Vite.
-
-[https://labfilm2023.koobuka.repl.co/](https://labfilm2023.koobuka.repl.co/)
+This is a MongoDB database. In this database, you can use the API to perform a wide range of operations, 
+including inserting, updating, deleting, and querying data. The API provides a simple and flexible interface for interacting with your data, 
+and can be used to build applications that can scale and adapt to changing requirements.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+[VSCode](https://code.visualstudio.com/)
 
 ## Project Setup
 
